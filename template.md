@@ -21,6 +21,8 @@ This repository is a template for an awesome list. It holds the list's README, i
    - `maxInactiveMonths`: `0` rejects only archived or broken repositories; `12` also rejects any repository with no push in the last 12 months.
    - `maintainer`: your name and profile link for the "Maintained by" line.
    - `heroAlt`: the alt text for the hero image.
+
+   Then set `package.json`'s `name` to the list's name (`awesome-<topic>`) and its `description` to the tagline.
 3. Run `npm run sync`. It writes those values into `README.md`, `contributing.md` and `.github/pull_request_template.md`, between the `<!-- awesome:... -->` markers. Node 22 or later; there is nothing to install.
 4. Replace `.github/assets/hero.gif` with the list's own hero image, 1200x400, under the same name.
 5. Write the sections: replace the example sections in `README.md` (and their lines under Contents) with real ones, each in alphabetical order, one entry per line in the format `- [Name](https://link) - Description.` Rewrite the placeholder paragraphs in `README.md` and `contributing.md`.
