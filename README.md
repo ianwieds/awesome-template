@@ -27,6 +27,7 @@ Replace this paragraph with one or two sentences: what the topic is, and what th
 
 ## Tools
 
+- [Awesome Template](https://github.com/ianwieds/awesome-template) - Template for an awesome list with checked pull requests.
 - [Prettier](https://github.com/prettier/prettier) - Opinionated code formatter for JavaScript, CSS, Markdown and more.
 
 ## Guides
