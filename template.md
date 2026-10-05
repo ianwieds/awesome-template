@@ -7,6 +7,7 @@ This repository is a template for an awesome list. It holds the list's README, i
 - **PR check** (`.github/workflows/pr-check.yml`): checks every pull request's new or changed entries against the rules and the star bar, posts the result as one comment, and closes the pull request when it fails.
 - **Sweep** (`.github/workflows/sweep.yml`): every Monday, and on demand, re-checks every entry for dead links and archived or inactive repositories, and keeps one open `Entries to review` issue listing what it found.
 - **Checks** (`.github/workflows/checks.yml`): on every pull request and push to `main`, runs the tests and fails when the docs no longer match `awesome.json`.
+- **Maintenance** (`.github/workflows/maintenance.yml`): every day, adds one empty commit to a `maintenance` branch so the repository stays active and GitHub never pauses the Monday sweep.
 
 ## Steps
 
